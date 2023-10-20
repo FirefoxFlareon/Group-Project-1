@@ -30,31 +30,20 @@ h1 {
   .slide.active {
     opacity: 1;
   }
+
+  body{
+    text-align: center;
+    justify-content: center;
+  }
+  
   footer{
     align-items: center;
-    background-color:rgb(123, 125, 126);
+    background-color:linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(60,60,60,1) 52%, rgba(255,255,255,1) 100%);
     color: white;
-    text-align: center; flex-direction: row; text-wrap: nowrap; position:relative;
+    text-align: center; flex-direction: row; text-wrap: nowrap; position: absolute; 
+    bottom: 0;
+    width: 100%;
     
 }
-@media screen and (max-width: 992px){
-    main,
-    nav,
-.content {
-    flex-direction: column;
-}
-}
-@media screen and (max-width: 768px){
-    main,
-    nav,
-.content {
-    flex-direction: column;
-}
-}
-@media screen and (max-width: 576px){
-    main,
-    nav,
-.content {
-    flex-direction: column;
-}
-}
+
+
